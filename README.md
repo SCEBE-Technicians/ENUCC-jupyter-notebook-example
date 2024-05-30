@@ -8,3 +8,14 @@ $ conda env create -f env.yml
 $ conda activate jupyter-example
 $ srun jupyter execute NoisySine.ipynb
 ```
+
+## Initialising conda
+
+If you haven't run conda on ENUCC before then you'll have to run the following commands.
+
+```bash
+$ module load apps/anaconda3
+$ conda init bash
+```
+
+Then you have to restart your shell, after which you will have access to conda.
